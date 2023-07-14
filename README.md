@@ -1,12 +1,12 @@
 # Mac OS Shortcut
 การเรียกใช้ shortcut keyboard เพื่อให้เราใช้งานโปรแกรมต่างๆได้รวดเร็ว โดย default เราสามารถเรียกใช้งาน Mac OS shortcut หรือสร้าง new shortcuts ตัวย่างเช่น
 
-1. เปิดโปรแกรม Mission Control โดยการกดปุ่ม  Control + Up Arrow พร้อมกัน เราจะเห็นจำนวน Windows Desktops ที่เรามีอยู่ ถ้าอยากมีเพิ่มให้กดที่เครื่องหมายบวก (+) (ลองเพิืมสัก 7 อัน)
-2. ถ้าจะปิด Mission Control ก็กด Control + Down Arrow หรือ ใช้ สามนิ้วลากลงที่trackpad (tree singer swipe down on a trackpad) หรือจะกด Control + Up Arrow ซำ้เพื่อปิดก็ได้ 
-3. ในการควบคุมหรือเข้าไปในแต่ desktops (บางทีอาจเรียกว่า spaces window) เราสามารถสั่ง switch between จอทั้งหมดได้ด้วยการกดปุ่ม Control + rigth and left Arrows พร้อมๆกัน (แต่ก็ยังไม่ดีพอ)
-5. ดังนั้นแนะนำให้ไป create shortcut keyboard เองเช่น โดยไปเซตที่ System Setting->Keyboard->Keyboard Shortcuts-> Mission control--> Mission control and expand to select Switch to Desktop 1- Switch to Desktop 7, แล้วกดปุ่ม "Done" เมื่อเลือกครบ
+1. เปิดโปรแกรม **Mission Control** โดยการกดปุ่ม  **Control + Up Arrow** พร้อมกัน เราจะเห็นจำนวน Windows Desktops ที่เรามีอยู่ ถ้าอยากมีเพิ่มให้กดที่เครื่องหมายบวก (+) (ลองเพิืมสัก 7 อัน)
+2. ถ้าจะปิด Mission Control ก็กด **Control + Down Arrow** หรือ ใช้ สามนิ้วลากลงที่trackpad (tree singer swipe down on a trackpad) หรือจะกด Control + Up Arrow ซำ้เพื่อปิดก็ได้ 
+3. ในการควบคุมหรือเข้าไปในแต่ desktops (บางทีอาจเรียกว่า spaces window) เราสามารถสั่ง switch between จอทั้งหมดได้ด้วยการกดปุ่ม **Control + rigth and left Arrows** พร้อมๆกัน (แต่ก็ยังไม่ดีพอ)
+5. ดังนั้นแนะนำให้ไป create shortcut keyboard เองเช่น โดยไปเซตที่ System Setting->Keyboard->Keyboard Shortcuts-> Mission control--> Mission control and expand เพื่อเลือก **Switch to Desktop 1- Switch to Desktop 7**, แล้วกดปุ่ม **Done** เมื่อเลือกครบ
 6. ให้เราไปเซต "Reduce motion" เพื่อให้การ switch ไปมามัน smoothมากขึ้นและรวดเร็วเมื่อเรากดไปมาเช่น n ^1  แล้วเลือก ^2 เป็นต้น ให้เราไปเซตทีี่  System Setting->Accessiblity-->Display แล้วให้เปลี่ยนเป็น enable "Reduce Motion"  
-7. สุดท้ายให้ไปปิด "Automatically rearrange Spaces based on most recent use"  โดยไปเซตที่  System Setting->Desktop and Dock แล้วเลื่อนลงมาล่างสุดเพื่อไป Disable "Automatically rearrange Spaces based on most recent use" เพื่อไม่ใช้งาน feature นี้
+7. สุดท้ายให้ไปปิด **Automatically rearrange Spaces based on most recent use**  โดยไปเซตที่  System Setting->Desktop and Dock แล้วเลื่อนลงมาล่างสุดเพื่อไป **Disable** "Automatically rearrange Spaces based on most recent use" เพื่อไม่ใช้งาน feature นี้
 
 # Mac-Window-Managers
 How to use tilling Window Manager (No windows are hidden mode, no wasted screen, multi-monitor support)
