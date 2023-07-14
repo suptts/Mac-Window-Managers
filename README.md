@@ -1,4 +1,5 @@
-# Mac OS Shotcut
+# Mac OS Shortcut
+การเรียกใช้ shortcut keyboard เพื่อให้เราใช้งานโปรแกรมต่างๆได้รวดเร็ว โดย default เราสามารถเรียกใช้งาน Mac OS shortcut หรือสร้าง new shortcuts ตัวย่างเช่น
 
 1. Open Mission Control by *Control + Up Arrow*, then click on + sign to open serveral different desktops (try with 7 windows)
 2. Close Open Mission Control by  *Control + Up Arrow* or *tree singer swipe down on a trackpad* or up once again *Control + Up Arrow* 
