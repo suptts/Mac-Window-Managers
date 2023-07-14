@@ -1,3 +1,12 @@
+# Mac OS Shotcut
+
+1. Open Mission Control by *Control + Up Arrow*, then click on + sign to open serveral different desktops (try with 7 windows)
+2. Close Open Mission Control by  *Control + Up Arrow* or *tree singer swipe down on a trackpad* or up once again *Control + Up Arrow* 
+3. To control each destops or spaces crated window, we switch between them by *Control + rigth and left Arrows*
+4. Go to seting to create shortcut keyboard to so we can switch by use ^1 or ^2...^7, Go to System Setting->Keyboard->Keyboard Shortcuts-> Mission control--> Mission control and expand to select Switch to Desktop 1- Switch to Desktop 7, press "Done"
+5. Set to "Reduce motion" for smooth transition of each desktop when we switch ^1 ^2, Go to System Setting->Accessiblity-->Display then enable "Reduce Motion" 
+6. Turn off Desktop & Dock for "Automatically rearrange Spaces based on most recent use" to to System Setting->Desktop and Dock then go to the buttom the Disable "Automatically rearrange Spaces based on most recent use"
+
 # Mac-Window-Managers
 How to use tilling Window Manager (No windows are hidden mode, no wasted screen, multi-monitor support)
 
