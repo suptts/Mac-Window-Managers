@@ -72,23 +72,24 @@ yabai -m rule --add app="^Karabiner-Elements$" manage=off
 yabai -m rule --add app="^QuickTime Player$" manage=off
 ```
 
-
-# Start Yabai
+## สั่ง Start Yabai เมื่อเรา save yabairc เรียบร้อยแล้ว
 
 `yabai --start-service`
 
-# Restart yabai:
+## ในกรณีที่มีการแก้ไข configuration เพิ่มเติมต้องสั่ง Restart yabai: เมื่อเรา save yabairc เรียบร้อยแล้ว
 
 `yabai --restart-service`
 
-# Start Skhd
+# ต่อไปเราจะไปสร้าง Keyboard shorts ในเครื่องเราโดยใช้โปรแกรม skhd 
+
+## สั่ง Start Skhd เมื่อเรา save skhdrc เรียบร้อยแล้ว
 
 `skhd --start-service`
 
-# Restart skhd:
+## ถ้ามีการแก้ไข skhdrc เพิ่มเติมจะต้องสั่งสั่ง Restart skhd เมื่อเรา save skhdrc เรียบร้อยแล้ว
 `skhd --restart-service`
 
-# Create Skhd Config File in Home Directory
+## สร้าง Skhd Config File in Home Directory
 ```bash
 cd ~
 mkdir .config/skhdrc
@@ -99,7 +100,7 @@ touch skhdrc
 
 ## ให้ทำการ copy พวก Configuration Options ไปใสในไฟล์  skhdrc 
 ```bash
-# -- Changing Window Focus --
+# -- สร้าง keyboard shortcuts เพื่อเปลี่ยน Window Focus --
 
 # change window focus within space
 alt - j : yabai -m window --focus south
@@ -111,7 +112,7 @@ alt - l : yabai -m window --focus east
 alt - s: yabai -m display --focus west
 alt - g: yabai -m display --focus east
 
-# -- Modifying the Layout --
+# -- สร้าง keyboard shortcuts เพื่อ Modifying the Layout --
 
 # rotate layout clockwise
 shift + alt - r : yabai -m space --rotate 270
@@ -126,7 +127,7 @@ shift + alt - x : yabai -m space --mirror x-axis
 shift + alt - t : yabai -m window --toggle float --grid 4:4:1:1:2:2
 
 
-# -- Modifying Window Size --
+# -- สร้าง keyboard shortcuts เพื่อ Modifying Window Size --
 
 # maximize a window
 shift + alt - m : yabai -m window --toggle zoom-fullscreen
@@ -134,7 +135,7 @@ shift + alt - m : yabai -m window --toggle zoom-fullscreen
 # balance out tree of windows (resize to occupy same area)
 shift + alt - e : yabai -m space --balance
 
-# -- Moving Windows Around --
+# -- สร้าง keyboard shortcuts เพื่อ Moving Windows Around --
 
 # swap windows
 shift + alt - j : yabai -m window --swap south
@@ -165,7 +166,7 @@ shift + alt - 5 : yabai -m window --space 5;
 shift + alt - 6 : yabai -m window --space 6;
 shift + alt - 7 : yabai -m window --space 7;
 
-# -- Starting/Stopping/Restarting Yabai --
+# -- สร้าง keyboard shortcuts เพื่อ Starting/Stopping/Restarting Yabai --
 
 # stop/start/restart yabai
 ctrl + alt - q : yabai --stop-service
