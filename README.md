@@ -72,7 +72,7 @@ yabai -m rule --add app="^Karabiner-Elements$" manage=off
 yabai -m rule --add app="^QuickTime Player$" manage=off
 ```
 
-## สั่ง Start Yabai เมื่อเรา save yabairc เรียบร้อยแล้ว
+## สั่ง Start Yabai เมื่อเรา save yabairc เรียบร้อยแล้ว (ตอนที่เรียกใช้งานครั้งแรก จะมี popup เพื่อให้ enable การใช้งานในเครื่อง ต้อง allow ให้มันใช้งานโปรแกรมนี้ด้วย)
 
 `yabai --start-service`
 
