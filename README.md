@@ -178,4 +178,6 @@ ctrl + alt - s : yabai --start-service
 ctrl + alt - r : yabai --restart-service
 ```
 
-
+# Test with iTerm2
+1. open new windows Control+N
+2. 
