@@ -185,3 +185,5 @@ ctrl + alt - r : yabai --restart-service
 # ทดสอบเปิดมาหลายหน้าต่าง เราจะใช้ iTerm2 เพื่อทดสอบ
 1. เราเปิด หน้าต่างใหม่ได้โดยการกดปุ่ม **Control+N**
 2. กดปุ่ม **Option+N** ที่คีย์บอร์ดเพื่อ move cursor ไปทำงานหน้าต่างย่อยๆที่เปิด (ให้ดูใน configuration skhd อีกทึถ้าจำคำสั่งไม่ได้)
+
+<span style="color:blue">Great! *You are done.* text</span>
