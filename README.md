@@ -8,8 +8,8 @@
 6. ให้เราไปเซต "Reduce motion" เพื่อให้การ switch ไปมามัน smoothมากขึ้นและรวดเร็วเมื่อเรากดไปมาเช่น n ^1  แล้วเลือก ^2 เป็นต้น ให้เราไปเซตทีี่  System Setting->Accessiblity-->Display แล้วให้เปลี่ยนเป็น enable "Reduce Motion"  
 7. สุดท้ายให้ไปปิด **Automatically rearrange Spaces based on most recent use**  โดยไปเซตที่  System Setting->Desktop and Dock แล้วเลื่อนลงมาล่างสุดเพื่อไป **Disable** "Automatically rearrange Spaces based on most recent use" เพื่อไม่ใช้งาน feature นี้
 
-# Mac-Window-Managers
-ถ้าเครื่องไม่ได้ติดตั้ง HomeBrew แนะนำให้ทำก่อน
+# การInstall และ configutre tool เพื่อช่วยในการ manage หน้าจอ Window สำหรับ Mac OS
+ถ้าเครื่องไม่ได้ติดตั้ง HomeBrew แนะนำให้ทำก่อน (จะข้าม neovim ripgrep node ก็ได้)
 
 ```bash
 brew install --cask iterm2
@@ -18,13 +18,13 @@ brew install ripgrep
 brew install node
 ```
 
-# Install Yabai (for Window Managing) and Skhd (for Keboard Shortcuts)
+# เริ่มด้วยการติดตั้งโปรแกรม Yabai สำหรับจัดการ window และ ติดตั้ง Skhd เพื่อสร้าง Keyboard Shortcuts
 ```bash
 brew install koekeishiya/formulae/yabai
 brew install koekeishiya/formulae/skhd
 ```
 
-# Create directory and configuration for Yamai
+# หลังจากติดตั้งแล้วเราจะสร้าง configuration ไฟล์สำหรับ Yabai โดยให้รันคำสั่งด้านล่างนี้ใน terminal (เช่น iterm2)
 
 ```bash
 cd ~
@@ -34,7 +34,7 @@ cd .config/yabai
 touch yabairc
 ```
 
-## Add Configuration Options to yabai
+## ให้ทำการ copy พวก Configuration Options ไปใสในไฟล์ yabairc
 
 ```bash
 # default layout (can be bsp, stack or float)
@@ -97,7 +97,7 @@ cd .config/skhdrc
 touch skhdrc
 ```
 
-## Add Configuration Options to skhdrc 
+## ให้ทำการ copy พวก Configuration Options ไปใสในไฟล์  skhdrc 
 ```bash
 # -- Changing Window Focus --
 
@@ -173,7 +173,7 @@ ctrl + alt - s : yabai --start-service
 ctrl + alt - r : yabai --restart-service
 ````
 
-# Stop/Start/Restart Yabai
+# วิธิการสั่ง Stop/Start/Restart Yabai
 ```bash
 # stop/start/restart yabai
 ctrl + alt - q : yabai --stop-service
