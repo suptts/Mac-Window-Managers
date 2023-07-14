@@ -17,7 +17,7 @@ brew install ripgrep
 brew install node
 ```
 
-# Install Yabai and Skhd
+# Install Yabai (for Window Managing) and Skhd (for Keboard Shortcuts)
 ```bash
 brew install koekeishiya/formulae/yabai
 brew install koekeishiya/formulae/skhd
