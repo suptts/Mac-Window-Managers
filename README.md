@@ -186,4 +186,4 @@ ctrl + alt - r : yabai --restart-service
 1. เราเปิด หน้าต่างใหม่ได้โดยการกดปุ่ม **Control+N**
 2. กดปุ่ม **Option+N** ที่คีย์บอร์ดเพื่อ move cursor ไปทำงานหน้าต่างย่อยๆที่เปิด (ให้ดูใน configuration skhd อีกทึถ้าจำคำสั่งไม่ได้)
 
-# You are done :smile:
+# You are done :smile: :clap:
