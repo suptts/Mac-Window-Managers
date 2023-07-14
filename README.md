@@ -9,7 +9,7 @@
 7. สุดท้ายให้ไปปิด **Automatically rearrange Spaces based on most recent use**  โดยไปเซตที่  System Setting->Desktop and Dock แล้วเลื่อนลงมาล่างสุดเพื่อไป **Disable** "Automatically rearrange Spaces based on most recent use" เพื่อไม่ใช้งาน feature นี้
 
 # Mac-Window-Managers
-How to use tilling Window Manager (No windows are hidden mode, no wasted screen, multi-monitor support)
+ถ้าเครื่องไม่ได้ติดตั้ง HomeBrew แนะนำให้ทำก่อน
 
 ```bash
 brew install --cask iterm2
@@ -22,7 +22,11 @@ brew install node
 ```bash
 brew install koekeishiya/formulae/yabai
 brew install koekeishiya/formulae/skhd
+```
 
+# Create directory and configuration for Yamai
+
+```bash
 cd ~
 mkdir .config/yabai
 cd .config/yabai
@@ -30,7 +34,7 @@ cd .config/yabai
 touch yabairc
 ```
 
-## Add Configuration Options to File
+## Add Configuration Options to yabai
 
 ```bash
 # default layout (can be bsp, stack or float)
@@ -60,7 +64,6 @@ yabai -m config mouse_action2 resize
 
 # when window is dropped in center of another window, swap them (on edges it will split it)
 yabai -m mouse_drop_action swap
-
 
 # disable specific apps
 yabai -m rule --add app="^System Settings$" manage=off
@@ -149,7 +152,6 @@ ctrl + alt - l : yabai -m window --warp east
 shift + alt - s : yabai -m window --display west; yabai -m display --focus west;
 shift + alt - g : yabai -m window --display east; yabai -m display --focus east;
 
-
 # move window to prev and next space
 shift + alt - p : yabai -m window --space prev;
 shift + alt - n : yabai -m window --space next;
@@ -179,6 +181,6 @@ ctrl + alt - s : yabai --start-service
 ctrl + alt - r : yabai --restart-service
 ```
 
-# Test with iTerm2
-1. open new windows Control+N
-2. 
+# ทดสอบเปิดมาหลายหน้าต่าง เราจะใช้ iTerm2 เพื่อทดสอบ
+1. เราเปิด หน้าต่างใหม่ได้โดยการกดปุ่ม **Control+N**
+2. กดปุ่ม **Option+N** ที่คีย์บอร์ดเพื่อ move cursor ไปทำงานหน้าต่างย่อยๆที่เปิด (ุให้ดูใน configuration skhd อีกทึถ้าจำคำสั่งไม่ได้)
