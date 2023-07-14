@@ -71,18 +71,18 @@ yabai -m rule --add app="^QuickTime Player$" manage=off
 
 # Start Yabai
 
-`brew services start yabai`
+`yabai --start-service`
 
 # Restart yabai:
 
-`brew services restart yabai`
+`yabai --restart-service`
 
 # Start Skhd
 
-`brew services start skhd`
+`skhd --start-service`
 
 # Restart skhd:
-`brew services restart skhd`
+`skhd --restart-service`
 
 # Create Skhd Config File in Home Directory
 ```bash
